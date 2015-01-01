@@ -1,10 +1,7 @@
 log
 ===
+FullereneViewer を FreeBSD 9.0 でコンパイルした時のログを添付します。
 
-OS: FreeBSD 9.0
-Repository: FullereneViewer
-current directory: FullereneViewer/src
-command line: `gmake CC='clang -v' CXX='clang++ -v' LINK='clang -v' Qt`
+src サブディレクトリの中で `gmake CC='clang -v' CXX='clang++ -v' LINK='clang -v' Qt` としました。
 
-の時のログです。
-上記条件ではバスエラーせずに普通に起動できました。
+この条件ではバスエラーせずに普通に起動できました。
